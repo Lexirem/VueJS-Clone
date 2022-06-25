@@ -1,3 +1,38 @@
-*{
+*, body{
     margin: 0;
+    background-color: black;
+}
+
+.nav-bar{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    margin: 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+.options > ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+}
+
+.tagline{
+    /* color: -webkit-linear-gradient(315deg,#42d392 25%,#647eff); */
+    color: aquamarine;
+    font-size:  70px;
+    text-align: center;
+
+}
+p {
+    color: lightgray;
+    text-align: center;
+    margin-top: 20px;
 }
